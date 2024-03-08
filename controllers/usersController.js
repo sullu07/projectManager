@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const User = require("../models/User");
 
+
 // Create a new user
 exports.addUser = async (req, res) => {
   const { username, email } = req.body;
